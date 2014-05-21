@@ -55,12 +55,12 @@ function fetchJiraData(issueKey, prop, cacheBuster) {
   }
   
   var result;
-  //try{
+  try{
     result = UrlFetchApp.fetch("https://{Jira URL}/rest/api/latest/issue/" + issueKey, options);
-  //}
-  //catch(e){
-  //  setProperty('authFailure', 'true') 
-  //}
+  }
+  catch(e){
+    setProperty('authFailure', 'true') 
+  }
   
   var o  = Utilities.jsonParse(result.getContentText());
   Logger.log(result.getContentText());
