@@ -1,4 +1,4 @@
-Spread-It
+Jira-Genie
 =========
 
 A custom function for dynamically pulling Jira data into a spreadsheet.
