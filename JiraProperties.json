@@ -1,0 +1,144 @@
+{
+  "expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog",
+  "id": "123718",
+  "self": "https://{Jira URL}/rest/api/latest/issue/123718",
+  "key": "PROJECT-218",
+  "fields": {
+    "progress": {
+      "progress": 0,
+      "total": 28800,
+      "percent": 0
+    },
+    "summary": "This is a summary of the ticket!",
+    "timetracking": {
+      "originalEstimate": "8h",
+      "remainingEstimate": "8h",
+      "originalEstimateSeconds": 28800,
+      "remainingEstimateSeconds": 28800
+    },
+    "issuetype": {
+      "self": "https://{Jira URL}/rest/api/2/issuetype/1",
+      "id": "1",
+      "description": "A problem which impairs or prevents the functions of the product.",
+      "iconUrl": "https://{Jira URL}/images/icons/issuetypes/bug.png",
+      "name": "Bug",
+      "subtask": false
+    },
+    "customfield_11718": null,
+    "timespent": null,
+    "reporter": {
+      "self": "https://{Jira URL}/rest/api/2/user?username=user%40gmail.com",
+      "name": "user@gmail.com",
+      "emailAddress": "user@gmail.com",
+      "avatarUrls": {
+        "16x16": "https://secure.gravatar.com/avatar/87d534325d4f68506c2341268e79a11b?d=identicon&s=16",
+        "24x24": "https://secure.gravatar.com/avatar/87d534325d4f68506c2341268e79a11b?d=identicon&s=24",
+        "32x32": "https://secure.gravatar.com/avatar/87d534325d4f68506c2341268e79a11b?d=identicon&s=32",
+        "48x48": "https://secure.gravatar.com/avatar/87d534325d4f68506c2341268e79a11b?d=identicon&s=48"
+      },
+      "displayName": "John Smith",
+      "active": true
+    },
+    "updated": "2014-05-14T14:53:42.000-0500",
+    "created": "2014-04-04T09:07:50.000-0500",
+    "priority": {
+      "self": "https://{Jira URL}/rest/api/2/priority/3",
+      "iconUrl": "https://{Jira URL}/images/icons/priorities/major.png",
+      "name": "Major",
+      "id": "3"
+    },
+    "description": "This ticket involves the login page and that thing that's broken.",
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10004": null,
+    "issuelinks": [],
+    "customfield_12002": null,
+    "customfield_10000": "27549",
+    "subtasks": [],
+    "status": {
+      "self": "https://{Jira URL}/rest/api/2/status/1",
+      "description": "The issue is open and ready for the assignee to start work on it.",
+      "iconUrl": "https://{Jira URL}/images/icons/statuses/open.png",
+      "name": "Open",
+      "id": "1"
+    },
+    "customfield_10006": null,
+    "labels": [],
+    "workratio": 0,
+    "project": {
+      "self": "https://{Jira URL}/rest/api/2/project/12907",
+      "id": "12907",
+      "key": "PROJECT",
+      "name": "BOARD.NAME",
+      "avatarUrls": {
+        "16x16": "https://{Jira URL}/secure/projectavatar?size=xsmall&pid=12907&avatarId=10011",
+        "24x24": "https://{Jira URL}/secure/projectavatar?size=small&pid=12907&avatarId=10011",
+        "32x32": "https://{Jira URL}/secure/projectavatar?size=medium&pid=12907&avatarId=10011",
+        "48x48": "https://{Jira URL}/secure/projectavatar?pid=12907&avatarId=10011"
+      },
+      "projectCategory": {
+        "self": "https://{Jira URL}/rest/api/2/projectCategory/10200",
+        "id": "10200",
+        "description": "",
+        "name": "Projects"
+      }
+    },
+    "environment": null,
+    "customfield_11200": null,
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 28800,
+      "percent": 0
+    },
+    "lastViewed": "2014-05-15T11:24:54.900-0500",
+    "components": [],
+    "comment": {
+      "startAt": 0,
+      "maxResults": 0,
+      "total": 0,
+      "comments": []
+    },
+    "timeoriginalestimate": 28800,
+    "customfield_10111": "Not Started",
+    "customfield_11350": null,
+    "customfield_10302": "8",
+    "customfield_10110": null,
+    "votes": {
+      "self": "https://{Jira URL}/rest/api/2/issue/PROJECT-218/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "fixVersions": [],
+    "resolution": null,
+    "resolutiondate": null,
+    "customfield_12227": null,
+    "aggregatetimeoriginalestimate": 28800,
+    "customfield_10410": null,
+    "duedate": null,
+    "customfield_10108": null,
+    "customfield_10109": null,
+    "customfield_11348": null,
+    "watches": {
+      "self": "https://{Jira URL}/rest/api/2/issue/PROJECT-218/watchers",
+      "watchCount": 1,
+      "isWatching": false
+    },
+    "customfield_10105": null,
+    "customfield_10106": null,
+    "customfield_10107": null,
+    "customfield_10103": null,
+    "customfield_10102": null,
+    "customfield_10601": "PROJECT-235",
+    "customfield_10101": null,
+    "customfield_10100": "107337",
+    "assignee": null,
+    "attachment": [],
+    "customfield_12225": null,
+    "customfield_12224": null,
+    "customfield_10500": null,
+    "aggregatetimeestimate": 28800,
+    "versions": [],
+    "timeestimate": 28800,
+    "aggregatetimespent": null
+  }
+}
