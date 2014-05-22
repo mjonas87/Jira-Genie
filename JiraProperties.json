@@ -31,10 +31,10 @@
       "name": "user@gmail.com",
       "emailAddress": "user@gmail.com",
       "avatarUrls": {
-        "16x16": "https://secure.gravatar.com/avatar/87d534325d4f68506c2341268e79a11b?d=identicon&s=16",
-        "24x24": "https://secure.gravatar.com/avatar/87d534325d4f68506c2341268e79a11b?d=identicon&s=24",
-        "32x32": "https://secure.gravatar.com/avatar/87d534325d4f68506c2341268e79a11b?d=identicon&s=32",
-        "48x48": "https://secure.gravatar.com/avatar/87d534325d4f68506c2341268e79a11b?d=identicon&s=48"
+        "16x16": "https://avatars3.githubusercontent.com/u/1400552?s=460",
+        "24x24": "https://avatars3.githubusercontent.com/u/1400552?s=460",
+        "32x32": "https://avatars3.githubusercontent.com/u/1400552?s=460",
+        "48x48": "https://avatars3.githubusercontent.com/u/1400552?s=460"
       },
       "displayName": "John Smith",
       "active": true
