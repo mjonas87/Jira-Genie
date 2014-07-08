@@ -72,6 +72,10 @@ function fetchJiraData(issueKey, prop, cacheBuster) {
      result = result[props[i]];
   }
   
+  if(result instanceof Array){
+    return result.join(", ");
+  }
+  
   return result;
 }
 
