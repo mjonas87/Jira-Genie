@@ -20,8 +20,11 @@ function promptForCredentials(){
     clearProperties(); 
   }
   
+  var username = getProperty('username');
+  var password = getProperty('password');
+  
   //Promt for credentials
-  if(getProperty('username') == null || getProperty('password') == null){
+  if(username == null || password == null){
     var ui = SpreadsheetApp.getUi();
     var usernameResponse =  ui.prompt('Jira Integration', 'This sheet integrates with Jira!\n\n Jira Username?', ui.ButtonSet.OK);
     var passwordResponse =  ui.prompt('Jira Integration', 'Jira Password?', ui.ButtonSet.OK);
@@ -69,7 +72,10 @@ function fetchJiraData(issueKey, prop, cacheBuster) {
   
   var result = o.fields[props[0]];
   for (var i = 1; i < props.length; i++){
-     result = result[props[i]];
+    if(!result){
+      return '';
+    }
+    result = result[props[i]];
   }
   
   if(result instanceof Array){
